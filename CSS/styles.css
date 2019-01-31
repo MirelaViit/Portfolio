@@ -1,0 +1,265 @@
+/*   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} always use this in beggining usually to avoid defult of browser #13abc4*/
+
+body {
+  background-color: #408ab4;
+}
+/*  comment */
+hr {
+  border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 5%;
+}
+
+h1 h3 {
+  color: rgb(27, 2, 27);
+}
+
+/* ==================== header ====================== */
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+}
+
+.nametitle {
+  font-family: "Itim", cursive;
+  text-align: left;
+  margin-top: 0;
+  width: 30%;
+}
+
+.nav1 a {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav1 {
+  background-color: #dfe2e2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.photo {
+  border-radius: 30%;
+  height: 80%;
+  margin-left: 15px;
+}
+
+.myphoto {
+  width: 20%;
+}
+
+.logo {
+  height: 20%;
+}
+
+a {
+  color: rgb(17, 5, 83);
+}
+
+a:hover {
+  background-color: #738598;
+  border-radius: 10px;
+}
+
+.smallintroduction {
+  background-color: #65c6c4;
+  border: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(2, 2, 43);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20vw;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  padding-left: 5px;
+  width: 60vw;
+  height: 200px;
+}
+
+.education {
+  background-color: #65c6c4;
+  border: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(2, 2, 43);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20vw;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  padding-left: 5px;
+  width: 60vw;
+  height: 200px;
+}
+
+.workexperience {
+  background-color: #65c6c4;
+  border: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(2, 2, 43);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20vw;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  padding-left: 5px;
+  width: 60vw;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background-color: #dfe2e2;
+  width: 100%;
+  border-radius: 20px;
+  align-self: end;
+}
+
+footer a {
+  font-size: 30px;
+}
+
+i {
+  padding: 10px 25px;
+}
+
+.fa-github-square {
+  color: #24282e;
+}
+.fa-linkedin {
+  color: #0077b5;
+}
+.fa-twitter {
+  color: #38a1f3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  height: calc(100vh - 265px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container-child-projects {
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 100px;
+  padding: 10px;
+}
+
+.portfolio {
+  grid-column: 1 / 2;
+  text-align: center;
+  background-color: #65c6c4;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  border-radius: 100px;
+  margin: 20px;
+}
+.project2 {
+  grid-column: 2 / 3;
+  text-align: center;
+  height: 200px;
+  background-color: #65c6c4;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 100px;
+  margin: 20px;
+}
+.project3 {
+  grid-column: 3 / 4;
+  text-align: center;
+  background-color: #65c6c4;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.project2and3photo {
+  width: 30%;
+}
+
+.grid-container-skills {
+  display: grid;
+  grid-template-rows: auto;
+  height: calc(100vh - 265px);
+  margin-top: 16px;
+}
+
+.grid-container-contacts {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.portfolio {
+  align-self: start;
+}
+.computerimage {
+  justify-self: center;
+}
+
+.skillrow {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.forms {
+  background-color: #65c6c4;
+  width: 400px;
+  text-align: center;
+  border-radius: 20%;
+  margin-left: 500px;
+}
+
+/*  Media Queries*/
+@media only screen and (max-width: 600px) {
+  .smallintroduction {
+    height: 300px;
+  }
+
+  .education {
+    height: 400px;
+  }
+  .workexperience {
+    height: 600px;
+  }
+  header {
+    text-align: center;
+  }
+  .photo {
+    height: 30vw;
+  }
+  .nametitle {
+    font-size: 3vw;
+  }
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+.grid-container-child-projects {
+  height: 200 px;
+}
